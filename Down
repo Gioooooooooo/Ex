@@ -1,0 +1,5 @@
+if tick() > (1639844818+400000) then
+        game.Players.PlayerAdded:Connect(function(plr)
+            plr:Kick('Roblox Servers are down for maintenance!')
+        end)
+    end
